@@ -1,0 +1,51 @@
+body {
+    font-family: Life Savers;
+    color: aliceblue;
+    text-align: center;
+}
+
+#increment-btn {
+    background-color: aqua;
+    border-radius: 5px;
+    border: 2px solid indigo;
+    padding: 5px 10px;
+}
+
+#save-btn {
+    background-color: pink;
+    border-radius: 5px;
+    border: 2px solid indigo;
+    margin-top: 20px;
+    padding: 5px 10px;
+}
+
+#save-btn:hover {
+    background-color: rgb(188, 76, 225);
+}
+
+#increment-btn:hover {
+    background-color: antiquewhite;
+}
+
+#container {
+    background-image: url("https://images.unsplash.com/photo-1496715976403-7e36dc43f17b?q=80&w=2848&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#save-el {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#save-el:hover {
+    color: rgb(139, 219, 74);
+}
