@@ -2,6 +2,8 @@ body {
     font-family: Life Savers;
     color: aliceblue;
     text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1496715976403-7e36dc43f17b?q=80&w=2848&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
 }
 
 #increment-btn {
@@ -28,17 +30,15 @@ body {
 }
 
 #container {
-    background-image: url("https://images.unsplash.com/photo-1496715976403-7e36dc43f17b?q=80&w=2848&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-size: cover;
-    max-width: 100%;
-    max-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 50px;
-    background-repeat: no-repeat;
-    background-color: black;
+    background-color: rgba(108, 49, 36, 0.569);
+    border-radius: 20px;
+    max-width: 300px;
+    margin: 50px auto;
 }
 
 #save-el {
